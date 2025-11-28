@@ -32,7 +32,7 @@ This component is a LRM trained on laboratory-characterized non-fluorescent part
 ## Other utilities
 
 ### `truffle.preprocess`:
-Preprocesses raw MBS data files in the way that chooses the input parameters needed for the classification algorithm, and other parameters useful for analysis.
+Preprocesses raw MBS data files in the way that chooses the input parameters needed for the classification algorithm, and other parameters useful for analysis. This routine also includes the decision tree method, and code, developed by Gabriel Freitas for [Freitas et al. (2022)](https://pubs.rsc.org/en/content/articlelanding/2022/ea/d2ea00047d).
 
 ### `truffle.concentration`:
-Calculates concentrations with a chosen time resolution for a given dataframe of particles.
+Calculates concentrations with a chosen time resolution for a given dataframe of particles. This routine is also based on code produced by Gabriel Freitas, hosted at [https://github.com/SU-air/instrumentation-MBS](https://github.com/SU-air/instrumentation-MBS).
