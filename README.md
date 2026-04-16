@@ -9,7 +9,7 @@ Classification algorithm code made for the multiparameter bioaerosol spectromete
 
 The details of its training can be found in:
 
-Jönsson, A., Fu, J., Freitas, G. P., Crawford, I., Dagsson-Waldhauserová, P., Krejci, R., Tobo, Y., Yttri, K. E., & Zieger, P. (2026). **Tracing biological, human, and inorganic sources of coarse aerosols via single-particle fluorescence and optical morphology.** *EGUsphere* (in review at *Atmospheric Chemistry & Physics*, 2026, 1-37.
+Jönsson, A., Fu, J., Freitas, G. P., Crawford, I., Dagsson-Waldhauserová, P., Krejci, R., Tobo, Y., Yttri, K. E., & Zieger, P. (2026). **Tracing biological, human, and inorganic sources of coarse aerosols via single-particle fluorescence and optical morphology.** *EGUsphere* (in review at *Atmospheric Chemistry & Physics*, 2026, 1-37. DOI: [10.5194/egusphere-2026-59](https://doi.org/10.5194/egusphere-2026-59)
 
 ## Main functions
 
@@ -18,15 +18,15 @@ This component is a logistic regression model (LRM) trained on fluorescent parti
 
 ### `truffle.classify_fluo`:
 This component is a multiclass classifier based on dimension reduction using uniform manifold approximation and projection (UMAP) transformation and a $k$-nearest neighbors (kNN) classifier. It will base the classification on similarities to laboratory characterization data of bioaerosols and combustion particles, and assign a likely class among the following to each fluorescent particle:
-- 🌼 **Pollen:** These particles are likely pollen fragments (not intact pollen; the MBS's size range does not allow it to measure most whole pollen grains), and have broad, varied fluorescence curves.
-- 🦠 **Bacteria:** These particles have a distinct signal of strong fluorescence in the *B* detection channel, attributable to tryptophan.
-- 🍄‍🟫 **Fungal spores:** These particles share some similarities with bacteria, but have varied fluorescence peaks that can be either in the *B* or *C* channels.
-- 🔥 **Combustion:** These particles share similarities with pollen particles, but typically have stronger fluorescence.
+- ❀✿❀ **Pollen:** These particles are likely pollen fragments (not intact pollen; the MBS's size range does not allow it to measure most whole pollen grains), and have broad, varied fluorescence curves.
+- 𖤖𖠘𖤫 **Bacteria:** These particles have a distinct signal of strong fluorescence in the *B* detection channel, attributable to tryptophan.
+- 𓍊𓋼𓍊𓋼𓍊 **Fungal spores:** These particles share some similarities with bacteria, but have varied fluorescence peaks that can be either in the *B* or *C* channels.
+- ৡঌ **Combustion:** These particles share similarities with pollen particles, but typically have stronger fluorescence.
 
 ### `truffle.flag_dust`:
 This component is a LRM trained on laboratory-characterized non-fluorescent particles and quantifies the probability of being either SSA or dust.
 
-### `truffle.pig`🐷:
+### `truffle.pig` 𓃟:
 **P**article **I**dentification **G**adget. This combines and calls all of the component models of the classification algorithm and applies them to an input dataset.
 
 ## Other utilities
