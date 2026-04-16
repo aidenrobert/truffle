@@ -1,7 +1,7 @@
 # TRUFFLE:
 **T**rained **R**ecognition of **U**nique **F**luorescence- & **F**orm-based **L**abels for **E**nvironmental aerosols.
 
-Classification algorithm code made for the multiparameter bioaerosol spectrometer (MBS; University of Hertfordshire, UK). This code was produced and outlined in Jönsson et al. (*in prep.*). It is a machine learning-based particle classifier that aims to:
+Classification algorithm code made for the multiparameter bioaerosol spectrometer (MBS; University of Hertfordshire, UK). This code was produced and outlined in Jönsson et al. (*in review*). It is a machine learning-based particle classifier that aims to:
 
 1. Identify and flag likely non-biological interferent fluorescent particles with a **pollution model.**
 2. Classify fluorescent particles as belonging to a pollution/combustion, pollen, bacteria, or fungal spore class with a **multiclass classifier.**
@@ -9,7 +9,7 @@ Classification algorithm code made for the multiparameter bioaerosol spectromete
 
 The details of its training can be found in:
 
-Jönsson, Aiden; Fu, Jinglan; Freitas, Gabriel P.; and Zieger, Paul (*in prep.*). **Tracing biological, human, and inorganic sources of coarse aerosols via single-particle fluorescence and optical morphology.**.
+Jönsson, A., Fu, J., Freitas, G. P., Crawford, I., Dagsson-Waldhauserová, P., Krejci, R., Tobo, Y., Yttri, K. E., & Zieger, P. (2026). **Tracing biological, human, and inorganic sources of coarse aerosols via single-particle fluorescence and optical morphology.** *EGUsphere* (in review at *Atmospheric Chemistry & Physics*, 2026, 1-37.
 
 ## Main functions
 
