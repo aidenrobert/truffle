@@ -9,7 +9,7 @@ Classification algorithm code made for the multiparameter bioaerosol spectromete
 
 The details of its training can be found in:
 
-Jönsson, A., Fu, J., Freitas, G. P., Crawford, I., Dagsson-Waldhauserová, P., Krejci, R., Tobo, Y., Yttri, K. E., & Zieger, P. (2026). **Tracing biological, human, and inorganic sources of coarse aerosols via single-particle fluorescence and optical morphology.** *EGUsphere* (in review at *Atmospheric Chemistry & Physics*, 2026, 1-37. DOI: [10.5194/egusphere-2026-59](https://doi.org/10.5194/egusphere-2026-59)
+Jönsson, A., Fu, J., Freitas, G. P., Crawford, I., Dagsson-Waldhauserová, P., Krejci, R., Tobo, Y., Yttri, K. E., & Zieger, P. (2026). **Tracing biological, human, and inorganic sources of coarse aerosols via single-particle fluorescence and optical morphology.** *EGUsphere* (in review at *Atmospheric Chemistry & Physics*), 2026, 1-37. DOI: [10.5194/egusphere-2026-59](https://doi.org/10.5194/egusphere-2026-59)
 
 ## Main functions
 
